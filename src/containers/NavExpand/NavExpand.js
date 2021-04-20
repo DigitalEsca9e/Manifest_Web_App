@@ -11,6 +11,7 @@ import BoardsButton from "../../assets/Boards_Icon.svg";
 import SettingsButton from "../../assets/Settings_Icon.svg";
 import InfoButton from "../../assets/Info_Icon.svg";
 import PlusButton from "../../assets/Buttons/AddButton.svg";
+import '../Layout/Layout.css';
 
 
 class NavExpand extends Component {
