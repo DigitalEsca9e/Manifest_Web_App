@@ -35,50 +35,52 @@ function getBoards(db) {
             <audio autoPlay={true} preload="auto" >
               <source type="audio/mp3" src={ManifestJingle}/>
             </audio>
-            <Container>
-            <div >
-              <Tooltip content="These are your boards!">
-                <h1 className="titleText">
-                  Boards
-                </h1>
-              </Tooltip>
-            </div>
-            {/*------------------------------}
-            <Card>
-              <ListGroup variant="flush">
-                <ListGroup.Item>
-                  <LinkContainer to="/newnote">
-                    <Nav.Link>New Note</Nav.Link>
-                  </LinkContainer>
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  <LinkContainer to="/boards">
-                    <Nav.Link>Boards</Nav.Link>
+            <div className="appContent">
+              <Container>
+                <div >
+                  <Tooltip content="These are your boards!">
+                    <h1 className="titleText">
+                      Boards
+                    </h1>
+                  </Tooltip>
+                </div>
+                {/*------------------------------}
+                <Card>
+                  <ListGroup variant="flush">
+                    <ListGroup.Item>
+                      <LinkContainer to="/newnote">
+                        <Nav.Link>New Note</Nav.Link>
                       </LinkContainer>
                     </ListGroup.Item>
-              </ListGroup>
-            </Card>
-  */}
-            {notebook.map((a)=>{
-                return(
-                  <Card id={a.id}  className="Cards">
-                  <LinkContainer to={`${a.title}`}>
-                      <Card.Body onClick={() => {setNotes(a.notes)
-                      setIde(a.id)
-                      setBoardTitle(a.title)}}>
-                          <Card.Title>{a.title}</Card.Title>
-                      </Card.Body>
-                  </LinkContainer>
-                  <button className="deleteButton" onClick={() =>{ManiF.deleteBoardFromDB(a.id)}}><img src={DeleteButton} alt="Delete" /></button>
-                  </Card>
-                )
-                
-                })}
-                
-              
-              <button className="addButton"><img src={PlusButton} alt="Add" onClick={addBoardToDB} onFocus={getBoards(db)} /></button>
-              
-            </Container>
+                    <ListGroup.Item>
+                      <LinkContainer to="/boards">
+                        <Nav.Link>Boards</Nav.Link>
+                          </LinkContainer>
+                        </ListGroup.Item>
+                  </ListGroup>
+                </Card>
+                */}
+                {notebook.map((a)=>{
+                    return(
+                      <Card id={a.id}  className="Cards">
+                      <LinkContainer to={`${a.title}`}>
+                          <Card.Body onClick={() => {setNotes(a.notes)
+                          setIde(a.id)
+                          setBoardTitle(a.title)}}>
+                              <Card.Title>{a.title}</Card.Title>
+                          </Card.Body>
+                      </LinkContainer>
+                      <button className="deleteButton" onClick={() =>{ManiF.deleteBoardFromDB(a.id)}}><img src={DeleteButton} alt="Delete" /></button>
+                      </Card>
+                    )
+                    
+                    })}
+                    
+                  
+                  <button className="addButton"><img src={PlusButton} alt="Add" onClick={addBoardToDB} onFocus={getBoards(db)} /></button>
+                  
+              </Container>
+            </div>
           </div>
         );
     }
