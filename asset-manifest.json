@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Manifest_Web_App/static/css/main.553c931d.chunk.css",
-    "main.js": "/Manifest_Web_App/static/js/main.8bd50c59.chunk.js",
-    "main.js.map": "/Manifest_Web_App/static/js/main.8bd50c59.chunk.js.map",
+    "main.js": "/Manifest_Web_App/static/js/main.91e4a048.chunk.js",
+    "main.js.map": "/Manifest_Web_App/static/js/main.91e4a048.chunk.js.map",
     "runtime-main.js": "/Manifest_Web_App/static/js/runtime-main.627e38d0.js",
     "runtime-main.js.map": "/Manifest_Web_App/static/js/runtime-main.627e38d0.js.map",
     "static/css/2.17052618.chunk.css": "/Manifest_Web_App/static/css/2.17052618.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.17052618.chunk.css",
     "static/js/2.658c90ae.chunk.js",
     "static/css/main.553c931d.chunk.css",
-    "static/js/main.8bd50c59.chunk.js"
+    "static/js/main.91e4a048.chunk.js"
   ]
 }
