@@ -2,9 +2,12 @@
 {
     background-color: #3B72CD;
     min-height: 3rem;
+    overflow: hidden;
     position: fixed;
-    justify-content: start;
-    align-items: center;
+    /*justify-content: start;
+    align-items: center;*/
+    top: 0;
+    width: 100%;
     margin-bottom: 10px; /*Josh did this :-) */
     
 }

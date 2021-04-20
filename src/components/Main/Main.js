@@ -31,7 +31,7 @@ function getBoards(db) {
 }
   
   return(
-          <div className="appWidth">
+          <div>
             <audio autoPlay={true} preload="auto" >
               <source type="audio/mp3" src={ManifestJingle}/>
             </audio>

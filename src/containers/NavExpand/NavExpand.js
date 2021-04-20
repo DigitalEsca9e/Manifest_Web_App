@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Navbar} from 'react-bootstrap';
 //import {LinkContainer} from 'react-router-bootstrap';
-import './NavExpand.css';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
@@ -11,8 +11,7 @@ import BoardsButton from "../../assets/Boards_Icon.svg";
 import SettingsButton from "../../assets/Settings_Icon.svg";
 import InfoButton from "../../assets/Info_Icon.svg";
 import PlusButton from "../../assets/Buttons/AddButton.svg";
-import '../Layout/Layout.css';
-
+import './NavExpand.css';
 
 class NavExpand extends Component {
    constructor (props){
@@ -22,6 +21,7 @@ class NavExpand extends Component {
         }
     this.showNav=this.showNav.bind(this);
     }
+
     showNav(){
         if(this.state.showSidebar===false)
         {
@@ -39,6 +39,7 @@ class NavExpand extends Component {
             )
         }
     }
+    
     render()
     {
         return(
