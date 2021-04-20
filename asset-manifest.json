@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Manifest_Web_App/static/css/main.8bc46b11.chunk.css",
+    "main.css": "/Manifest_Web_App/static/css/main.2d298539.chunk.css",
     "main.js": "/Manifest_Web_App/static/js/main.5838ee8c.chunk.js",
     "main.js.map": "/Manifest_Web_App/static/js/main.5838ee8c.chunk.js.map",
     "runtime-main.js": "/Manifest_Web_App/static/js/runtime-main.627e38d0.js",
@@ -14,7 +14,7 @@
     "service-worker.js": "/Manifest_Web_App/service-worker.js",
     "service-worker.js.map": "/Manifest_Web_App/service-worker.js.map",
     "static/css/2.17052618.chunk.css.map": "/Manifest_Web_App/static/css/2.17052618.chunk.css.map",
-    "static/css/main.8bc46b11.chunk.css.map": "/Manifest_Web_App/static/css/main.8bc46b11.chunk.css.map",
+    "static/css/main.2d298539.chunk.css.map": "/Manifest_Web_App/static/css/main.2d298539.chunk.css.map",
     "static/js/2.0cb9578c.chunk.js.LICENSE.txt": "/Manifest_Web_App/static/js/2.0cb9578c.chunk.js.LICENSE.txt",
     "static/media/AddButton.031ad00f.svg": "/Manifest_Web_App/static/media/AddButton.031ad00f.svg",
     "static/media/Boards_Icon.ee7fa764.svg": "/Manifest_Web_App/static/media/Boards_Icon.ee7fa764.svg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.627e38d0.js",
     "static/css/2.17052618.chunk.css",
     "static/js/2.0cb9578c.chunk.js",
-    "static/css/main.8bc46b11.chunk.css",
+    "static/css/main.2d298539.chunk.css",
     "static/js/main.5838ee8c.chunk.js"
   ]
 }
