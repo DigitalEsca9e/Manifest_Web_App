@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Manifest_Web_App/static/css/main.ce84d942.chunk.css",
-    "main.js": "/Manifest_Web_App/static/js/main.fb02a1d2.chunk.js",
-    "main.js.map": "/Manifest_Web_App/static/js/main.fb02a1d2.chunk.js.map",
+    "main.css": "/Manifest_Web_App/static/css/main.f3135372.chunk.css",
+    "main.js": "/Manifest_Web_App/static/js/main.c0a327b5.chunk.js",
+    "main.js.map": "/Manifest_Web_App/static/js/main.c0a327b5.chunk.js.map",
     "runtime-main.js": "/Manifest_Web_App/static/js/runtime-main.627e38d0.js",
     "runtime-main.js.map": "/Manifest_Web_App/static/js/runtime-main.627e38d0.js.map",
     "static/css/2.17052618.chunk.css": "/Manifest_Web_App/static/css/2.17052618.chunk.css",
@@ -14,7 +14,7 @@
     "service-worker.js": "/Manifest_Web_App/service-worker.js",
     "service-worker.js.map": "/Manifest_Web_App/service-worker.js.map",
     "static/css/2.17052618.chunk.css.map": "/Manifest_Web_App/static/css/2.17052618.chunk.css.map",
-    "static/css/main.ce84d942.chunk.css.map": "/Manifest_Web_App/static/css/main.ce84d942.chunk.css.map",
+    "static/css/main.f3135372.chunk.css.map": "/Manifest_Web_App/static/css/main.f3135372.chunk.css.map",
     "static/js/2.0cb9578c.chunk.js.LICENSE.txt": "/Manifest_Web_App/static/js/2.0cb9578c.chunk.js.LICENSE.txt",
     "static/media/AddButton.031ad00f.svg": "/Manifest_Web_App/static/media/AddButton.031ad00f.svg",
     "static/media/Boards_Icon.ee7fa764.svg": "/Manifest_Web_App/static/media/Boards_Icon.ee7fa764.svg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.627e38d0.js",
     "static/css/2.17052618.chunk.css",
     "static/js/2.0cb9578c.chunk.js",
-    "static/css/main.ce84d942.chunk.css",
-    "static/js/main.fb02a1d2.chunk.js"
+    "static/css/main.f3135372.chunk.css",
+    "static/js/main.c0a327b5.chunk.js"
   ]
 }
