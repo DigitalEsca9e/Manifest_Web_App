@@ -25,10 +25,11 @@ function App() {
 
   return (
     <div className="App">
-      <Layout>
-        <NavExpand />
-      </Layout>
-      
+      <div className="App">
+        <Layout>
+          <NavExpand />
+        </Layout>
+      </div>
       <Switch>
         {/* *** You may need a trailing slash here. /about/ or /settings/ */}
         <Route exact path="/">
