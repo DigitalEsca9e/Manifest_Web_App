@@ -24,31 +24,33 @@ function App() {
   const [notetitle,setNoteTitle]=useState()
 
   return (
-    <div className="App">
-      <div className="App">
+    <div >
+      <div>
         <Layout>
           <NavExpand />
         </Layout>
       </div>
-      <Switch>
-        {/* *** You may need a trailing slash here. /about/ or /settings/ */}
-        <Route exact path="/">
-          <MainPage notebook={notebook} setNotebook={setNotebook} setBoardTitle={setBoardTitle} setNotes={setNote} setIde={setIde} />
-        </Route>
-        <Route exact path="/about">
-          <About/>
-        </Route>
-        <Route exact path="/settings">
-          <Settings/>
-        </Route>
-        <Route exact path="/:boardID">
-          <Boards notes={note} ide={ide} setNotes={setNote} boardtitle={boardtitle} setNoteId={setNoteId} setIde={setIde} setNoteele={setNoteele} setNoteTitle={setNoteTitle}/>
-        </Route>
-        <Route exact path="/:boardID/:noteID">
-          <NewNote noteele={noteele} ide={ide} setNotes={setNote} setNote2={setNote2} note2={note2} noteId={noteId} notes={note} setNoteele={setNoteele} setIde={setIde} notetitle={notetitle}/>
-        </Route>
-        
-      </Switch>
+      <div className="App">
+        <Switch>
+          {/* *** You may need a trailing slash here. /about/ or /settings/ */}
+          <Route exact path="/">
+            <MainPage notebook={notebook} setNotebook={setNotebook} setBoardTitle={setBoardTitle} setNotes={setNote} setIde={setIde} />
+          </Route>
+          <Route exact path="/about">
+            <About/>
+          </Route>
+          <Route exact path="/settings">
+            <Settings/>
+          </Route>
+          <Route exact path="/:boardID">
+            <Boards notes={note} ide={ide} setNotes={setNote} boardtitle={boardtitle} setNoteId={setNoteId} setIde={setIde} setNoteele={setNoteele} setNoteTitle={setNoteTitle}/>
+          </Route>
+          <Route exact path="/:boardID/:noteID">
+            <NewNote noteele={noteele} ide={ide} setNotes={setNote} setNote2={setNote2} note2={note2} noteId={noteId} notes={note} setNoteele={setNoteele} setIde={setIde} notetitle={notetitle}/>
+          </Route>
+          
+        </Switch>
+      </div>
     </div>
   );
 }
