@@ -30,7 +30,7 @@ function App() {
           <NavExpand />
         </Layout>
       </div>
-      <div className="App">
+      <div>
         <Switch>
           {/* *** You may need a trailing slash here. /about/ or /settings/ */}
           <Route exact path="/">
