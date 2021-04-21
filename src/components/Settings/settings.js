@@ -6,6 +6,7 @@ import './settings.css';
 
 function refreshApp() {
     window.location.replace('#');
+    window.location.reload(true);
     window.alert("Updates applied!")
     
   }
