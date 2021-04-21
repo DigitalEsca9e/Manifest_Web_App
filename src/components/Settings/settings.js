@@ -14,11 +14,11 @@ const Settings = () => {
     return(
         <div className="settingsButtons">
             {/* *** Add words to explain functionality. Style the button too */}
-            <Button onClick={refreshApp}>Check for updates</Button>
+            <Button id="updateButton" onClick={refreshApp}>Check for updates</Button>
             <br></br>
             <br></br>
             <br></br>
-            <Button onClick={ManiF.deleteCollection}>Erase All</Button>
+            <Button id="eraseButton" onClick={ManiF.deleteCollection}>Erase All</Button>
         </div>
         
     )
