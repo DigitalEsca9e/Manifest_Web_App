@@ -5,7 +5,7 @@ import {Button} from 'react-bootstrap';
 import './settings.css';
 
 function refreshApp() {
-    window.location.reload(false);
+    window.location.reload(true);
     window.alert("Updates applied!")
     
   }
