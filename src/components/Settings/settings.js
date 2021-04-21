@@ -18,7 +18,7 @@ const Settings = () => {
             <br></br>
             <br></br>
             <br></br>
-            <Button id="eraseButton" onClick={ManiF.deleteCollection}>Erase All</Button>
+            <Button id="updateButton" onClick={ManiF.deleteCollection}>Erase All</Button>
         </div>
         
     )
