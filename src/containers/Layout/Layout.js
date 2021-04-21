@@ -3,7 +3,7 @@ import './Layout.css';
 
 const layout = (props) => (
     <div>
-        <main className="mainContent">
+        <main>
             {props.children}
         </main>
     </div>

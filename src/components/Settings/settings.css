@@ -1,5 +1,4 @@
-.appWidth{
-    max-width: 900px;
-    text-align:center;
-    margin:auto;
+.settingsButtons{
+    text-align: center;
+    margin: 5%;
 }
