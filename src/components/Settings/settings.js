@@ -5,10 +5,8 @@ import {Button} from 'react-bootstrap';
 import './settings.css';
 
 function refreshApp() {
-    window.location.replace('#');
     window.location.reload(true);
-    window.alert("Updates applied!")
-    
+    window.alert("Updates applied!") 
   }
 
 const Settings = () => {
