@@ -5,7 +5,7 @@ import {Button} from 'react-bootstrap';
 import './settings.css';
 
 function refreshApp() {
-    window.location.reload(true);
+    window.location.replace('#');
     window.alert("Updates applied!")
     
   }
@@ -18,7 +18,7 @@ const Settings = () => {
             <br></br>
             <br></br>
             <br></br>
-            <Button id="updateButton" onClick={ManiF.deleteCollection}>Erase All</Button>
+            <Button id="eraseButton" onClick={ManiF.deleteCollection}>Erase All</Button>
         </div>
         
     )
